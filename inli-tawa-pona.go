@@ -7,20 +7,16 @@ import (
 	"strings"
 )
 
-func main() {
+func tawaPona() {
 	var input string
 
-	fmt.Println("=============================")
-	fmt.Println("toki pona number converter")
-	fmt.Println("made by jan Soli for learning Go")
-	fmt.Println("=============================")
-	fmt.Print("o pana e nanpa sina: ")
+	fmt.Print("o pana e nanpa pi toki Inli: ")
 	fmt.Scanln(&input)
 	fmt.Println("=============================")
 
 	number, _e := strconv.Atoi(input)
 	if _e != nil {
-		log.Fatal("[IKE] ni li nanpa ala!")
+		log.Fatal("[IKE] ni li nanpa ala pi toki Inli!")
 	}
 
 	// break it down into its constituent parts
